@@ -39,6 +39,7 @@ strong {
     color: #0e0f11;
 }
 
+
 .experience-section {
     margin: 15px 0;
     border: 3px solid #636b75;
@@ -49,4 +50,18 @@ strong {
 .experience-section:hover {
     transition: transform .2s;
     transform: scale(1.025);
+}
+
+.company-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.technology {
+    background-color: grey;
+    border-radius: 5px;
+    padding: 2px 6px;
+    color: #FFFFFF;
+    font-size: 18px;
 }
