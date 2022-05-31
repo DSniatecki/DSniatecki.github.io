@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="src/styles/main-styles.css">
     <script>
+        let counter = 1;
+
         function openWebsite(url) {
-            window.open(url, '_newtab');
+            window.open(url, counter.toString());
+            counter++
         }
     </script>
 </head>
