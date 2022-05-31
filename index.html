@@ -4,6 +4,11 @@
     <title>Damian Śniatecki</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="src/styles/main-styles.css">
+    <script>
+        function openWebsite(url) {
+            window.open(url, '_newtab');
+        }
+    </script>
 </head>
 <body>
 <header class="bottom-border">
@@ -12,7 +17,7 @@
 <div class="main-content">
     <section>
         <h2>Education</h2>
-        <div class="section-element">
+        <div class="section-element clickable" onclick="openWebsite('https://pwr.edu.pl/en/')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
                     <img class="logo" alt="SEBA Bank AG - Logo"
@@ -28,7 +33,7 @@
     </section>
     <section>
         <h2>Experience</h2>
-        <div class="section-element bottom-border">
+        <div class="section-element bottom-border clickable" onclick="openWebsite('https://www.seba.swiss/')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
                     <img class="logo" alt="SEBA Bank AG - Logo"
@@ -61,7 +66,7 @@
             <span class="technology">Grafana</span>
             <span class="technology">Kibana</span>
         </div>
-        <div class="section-element bottom-border">
+        <div class="section-element bottom-border clickable" onclick="openWebsite('https://www.decerto.com/')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
                     <img class="logo" alt="Decerto - Logo"
@@ -81,7 +86,7 @@
             <span class="technology">SQL</span>
             <span class="technology">Docker</span>
         </div>
-        <div class="section-element bottom-border">
+        <div class="section-element bottom-border clickable" onclick="openWebsite('https://axisdata.net/')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
                     <img class="logo" alt="Axis Data S.L.U. - Logo"
@@ -102,10 +107,10 @@
             <span class="technology">Docker</span>
             <span class="technology">Kubernetes</span>
         </div>
-        <div class="section-element">
+        <div class="section-element clickable" onclick="openWebsite('https://capgemini.com')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
-                    <img class="logo" alt="Axis Data S.L.U. - Logo"
+                    <img class="logo" alt="Capgemini - Logo"
                          src="https://media-exp1.licdn.com/dms/image/C4D0BAQFWzOAVgGjUUA/company-logo_200_200/0/1641979388362?e=1661990400&v=beta&t=mkPQYYMLf5OSc2vCPrfjf3ktswRz_EjF2siPFXAJZpA">
                 </div>
                 <div class="exp-title-section">
@@ -124,7 +129,8 @@
     </section>
     <section>
         <h2>Personal Projects</h2>
-        <div class="section-element bottom-border">
+        <div class="section-element bottom-border clickable"
+             onclick="openWebsite('https://github.com/DSniatecki/location-tracker')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
                     <img class="logo" alt="Location Tracker - Logo"
@@ -157,7 +163,8 @@
             <span class="technology">Grafana</span>
             <span class="technology">Kibana</span>
         </div>
-        <div class="section-element bottom-border">
+        <div class="section-element bottom-border clickable"
+             onclick="openWebsite('https://github.com/DSniatecki/modern-java-microservice')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
                     <img class="logo" alt="Modern Java Microservice - Logo"
@@ -181,7 +188,8 @@
             <span class="technology">Testcontainers</span>
             <span class="technology">OpenAPI</span>
         </div>
-        <div class="section-element">
+        <div class="section-element clickable"
+             onclick="openWebsite('https://github.com/DSniatecki/modern-kotlin-microservice')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
                     <img class="logo" alt="Modern Kotlin Microservice - Logo"
@@ -192,7 +200,8 @@
                     <p class="additional-info">Apr 2022 - Current</p>
                 </div>
             </div>
-            <p>Modern Kotlin Microservice is a service responsible for storing cars data. It is an example of a modern,
+            <p>Modern Kotlin Microservice is a service responsible for storing cars data. It is an example of a
+                modern,
                 reactive and lightweight microservice written with Kotlin.</p>
             <span class="technology">Kotlin</span>
             <span class="technology">Spring Boot</span>
@@ -205,6 +214,7 @@
             <span class="technology">Testcontainers</span>
             <span class="technology">OpenAPI</span>
         </div>
+        </a>
     </section>
 </div>
 <footer class="upper-border">

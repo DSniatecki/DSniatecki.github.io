@@ -62,6 +62,10 @@ footer {
     border-top: 1px solid #30363d;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 .section-element {
     padding: 10px 0;
     margin: 15px 0;
@@ -86,7 +90,6 @@ footer {
     transform: scale(1.025);
     color: #C9D1D9;
 }
-
 
 .exp-main-section {
     display: flex;
