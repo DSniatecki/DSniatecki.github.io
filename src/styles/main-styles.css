@@ -24,7 +24,6 @@ p {
 
 footer {
     margin: 0 10px;
-    padding: 5px;
     text-align: center;
 }
 
@@ -127,4 +126,25 @@ footer {
     padding-top: 2px;
     padding-left: 10px;
     flex-grow: 1;
+}
+
+.footer-links-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 6px 0;
+    text-align: center;
+}
+
+.footer-link {
+    padding: 2px 100px;
+}
+
+.footer-icon {
+    margin-right: 4px;
+    height: 12px;
+    width: 12px;
+}
+
+.footer-main-link {
+    padding-top: 8px;
 }
