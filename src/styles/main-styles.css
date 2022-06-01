@@ -8,7 +8,7 @@ header {
     margin: 0 10px;
 }
 
-h1{
+h1 {
     margin: 2px 0 6px;
 }
 
@@ -31,6 +31,16 @@ footer {
     text-align: center;
 }
 
+.contact-link {
+    color: #f0f6fc;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    color: #58A6FF;
+}
+
 .link {
     color: #C9D1D9;
     text-decoration: none;
@@ -39,6 +49,11 @@ footer {
 .link:hover {
     text-decoration: underline;
     color: #58A6FF;
+}
+
+.header-link {
+    color: #C9D1D9;
+    text-decoration: none;
 }
 
 .header-content {
@@ -90,9 +105,21 @@ footer {
     cursor: pointer;
 }
 
+.contact-line {
+    margin: 13px 8px;
+}
+
+.contact-icon {
+    float: left;
+    padding: 0;
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
 .section-element {
     padding: 10px 0;
-    margin: 15px 0;
+    margin: 15px 8px;
 }
 
 .section-element:hover {
@@ -121,6 +148,10 @@ footer {
     margin-right: 4px;
     height: 13px;
     width: 13px;
+}
+
+.skills-section-content{
+    margin: 0 8px;
 }
 
 .exp-main-section {
