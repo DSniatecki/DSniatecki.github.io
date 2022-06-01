@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Damian Śniatecki</title>
     <meta charset="UTF-8">
@@ -20,37 +20,130 @@
 </header>
 <div class="main-content">
     <section>
-        <h2>Education</h2>
-        <div class="section-element clickable" onclick="openWebsite('https://pwr.edu.pl/en/')">
-            <div class="exp-main-section">
-                <div class="exp-logo-section">
-                    <img class="logo" alt="SEBA Bank AG - Logo"
-                         src="https://media-exp1.licdn.com/dms/image/C4D0BAQGgO7Z7D24ppA/company-logo_100_100/0/1519935717598?e=1661990400&v=beta&t=Nghnrl_SGRHC-ii1kW0RNf8RBefPwX8IDRQFMxqKreo">
-                </div>
-                <div class="exp-title-section">
-                    <h3>Wroclaw University of Science and Technology</h3>
-                    <p class="additional-info">Faculty of Computer Science and Management</p>
-                </div>
+        <h2>About me</h2>
+        <div class="exp-main-section">
+            <div class="exp-logo-section">
+                <img class="avatar" alt="My avatar" src="src/images/avatar.jpg">
             </div>
-            <p>Computer Science, Bachelor's degree</p>
+            <div class="exp-title-section">
+                <p class="main-intro">Hi! My name is <strong>Damian Śniatecki</strong> and I am a <strong>Modern
+                    Fullstack Software Engineer</strong>.
+                </p>
+                <p class="intro">During my career, I have already managed to solve many complex problems for companies
+                    in financial,
+                    insurance and tourism sectors. I have also helped to expand and improve few high traffic
+                    microservice
+                    backend systems.</p>
+                <p class="intro">Although my main expertise is Java and backend development, I also feel comfortable
+                    working with frontend
+                    technologies like Angular or React.</p>
+                <p class="intro">I deliver reliable software of the highest quality that is consistent with the SOLID
+                    principles.
+                    Simplicity, readability, testability and maintainability are crucial to me. </p>
+                <p class="intro">My soft skills are highly developed. I can be definitely described as a communicative
+                    person and a
+                    great team player.</p>
+            </div>
         </div>
     </section>
-    <section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Paradigms and techniques:
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>OOP (Object Oriented Programming)</span>
+            <span class="technology"><img class="star" alt="star"
+                                          src="src/images/star.png"/>Functional Programming</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Clean Code</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>SOLID</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>TDD</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Reactive Programming</span>
+        </p>
+        <p>Programming languages:
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Java 17</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Kotlin</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>SQL</span>
+            <span class="technology">TypeScript</span>
+            <span class="technology">Python 3</span>
+            <span class="technology">HTML 5</span>
+            <span class="technology">CSS 3</span>
+        </p>
+        <p>Frameworks:
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Spring Boot</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Spring Webflux</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Spring R2DBC</span>
+            <span class="technology">Spring Security</span>
+            <span class="technology">JPA</span>
+            <span class="technology">Hibernate</span>
+            <span class="technology">Angular 13</span>
+        </p>
+        <p>Databases:
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>PostgreSQL</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>TimescaleDB</span>
+            <span class="technology">Redis</span>
+            <span class="technology">MongoDB</span>
+        </p>
+        <p>Others:
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Microservices</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>REST</span>
+            <span class="technology">RabbitMQ</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Docker</span>
+            <span class="technology">Kubernetes</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>JVM</span>
+            <span class="technology"><img class="star" alt="star" src="src/images/star.png"/>Multithreading</span>
+            <span class="technology">Testcontainers</span>
+            <span class="technology">JSON</span>
+            <span class="technology">Protobuf</span>
+            <span class="technology">JUnit 5</span>
+            <span class="technology">OpenAPI</span>
+        </p>
+        <p>Tools:
+            <span class="technology">Git</span>
+            <span class="technology">Maven</span>
+            <span class="technology">Visual VM</span>
+            <span class="technology">Bash</span>
+            <span class="technology">Linux</span>
+            <span class="technology">Postman</span>
+            <span class="technology">SwaggerHub</span>
+            <span class="technology">Nginx</span>
+            <span class="technology">Keycloak</span>
+            <span class="technology">Prometheus</span>
+            <span class="technology">Grafana</span>
+            <span class="technology">Kibana</span>
+            <span class="technology">Alert Manager</span>
+        </p>
+        <p class="additional-info"><img class="star" alt="star" src="src/images/star.png"/> - Main expertise</p>
+        <a class="link additional-info" href="#personal-projects">
+            Would you like to check it yourself? Take a look at my personal projects!
+        </a>
+    </section>
+    <section id="experience">
         <h2>Experience</h2>
         <div class="section-element bottom-border clickable" onclick="openWebsite('https://www.seba.swiss/')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
-                    <img class="logo" alt="SEBA Bank AG - Logo"
-                         src="https://media-exp1.licdn.com/dms/image/C560BAQH4gg4Ph-F80g/company-logo_200_200/0/1566816878551?e=1661990400&v=beta&t=r9CnBR_HXJwqPtdhiEK4q6wI5ndZ7KDFk3s2G0UYx1s">
+                    <img class="logo" alt="SEBA Bank AG - Logo" src="src/images/accenture-ag.jpeg">
+                </div>
+                <div class="exp-title-section">
+                    <h3>Accenture AG · Software Engineer</h3>
+                    <p class="additional-info">May 2022 - Current · Contract</p>
+                </div>
+            </div>
+            <p>Developing applications for Accenture AG's clients.</p>
+            <span class="technology">Java</span>
+            <span class="technology">Spring Boot</span>
+            <span class="technology">OracleDB</span>
+        </div>
+        <div class="section-element bottom-border clickable" onclick="openWebsite('https://www.seba.swiss/')">
+            <div class="exp-main-section">
+                <div class="exp-logo-section">
+                    <img class="logo" alt="SEBA Bank AG - Logo" src="src/images/seba-bank-ag.jpeg"/>
                 </div>
                 <div class="exp-title-section">
                     <h3>SEBA Bank AG · Software Engineer</h3>
-                    <p class="additional-info">Sep 2021 - Feb 2022</p>
+                    <p class="additional-info">Sep 2021 - Feb 2022 · Contract</p>
                 </div>
             </div>
             <p>Developing frontend and reactive backend applications. Designing, implementing, testing, deploying
-                and
-                monitoring asynchronous high traffic big data system.</p>
+                and monitoring asynchronous high traffic big data system.</p>
             <span class="technology">Kotlin</span>
             <span class="technology">Spring Boot</span>
             <span class="technology">Spring Webflux</span>
@@ -73,12 +166,11 @@
         <div class="section-element bottom-border clickable" onclick="openWebsite('https://www.decerto.com/')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
-                    <img class="logo" alt="Decerto - Logo"
-                         src="https://media-exp1.licdn.com/dms/image/C4E0BAQEaXwaAqqrVpQ/company-logo_200_200/0/1608049025236?e=1661990400&v=beta&t=Fcb3P4hbRtvcg_3neokEB4mqyl21hMVTvNuwmCqcfb4">
+                    <img class="logo" alt="Decerto - Logo" src="src/images/decerto.jpeg"/>
                 </div>
                 <div class="exp-title-section">
                     <h3>Decerto · Java Developer</h3>
-                    <p class="additional-info">Apr 2021 - Aug 2021</p>
+                    <p class="additional-info">Apr 2021 - Aug 2021 · Contract</p>
                 </div>
             </div>
             <p>Improving company's core product “Hyperon” - tool for managing business rules. Implementing
@@ -86,15 +178,18 @@
                 algorithms. Solving bugs and performance issues.</p>
             <span class="technology">Java 8</span>
             <span class="technology">Spring Boot</span>
-            <span class="technology">JPA/Hibernate</span>
+            <span class="technology">JPA</span>
+            <span class="technology">Hibernate</span>
             <span class="technology">SQL</span>
+            <span class="technology">PostgreSQL</span>
+            <span class="technology">OracleDB</span>
             <span class="technology">Docker</span>
+            <span class="technology">OpenAPI</span>
         </div>
         <div class="section-element bottom-border clickable" onclick="openWebsite('https://axisdata.net/')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
-                    <img class="logo" alt="Axis Data S.L.U. - Logo"
-                         src="https://media-exp1.licdn.com/dms/image/C560BAQEtMc2qA7Nhyg/company-logo_200_200/0/1565691896334?e=1661990400&v=beta&t=d_R71vo_JQgRrxqCaZuxX8AtJrbzN1AenGPCzIlLa_U">
+                    <img class="logo" alt="Axis Data S.L.U. - Logo" src="src/images/axis-data.jpeg"/>
                 </div>
                 <div class="exp-title-section">
                     <h3>Axis Data S.L.U. · Junior Software Engineer</h3>
@@ -106,16 +201,20 @@
                 testing core jvm applications. Improving performance and optimizing memory usage. Implementing caching
                 solutions. Creating, managing and monitoring Kubernetes pods, jobs and cronjobs.</p>
             <span class="technology">Java 11/15</span>
+            <span class="technology">Dropwizard</span>
+            <span class="technology">Spring Boot</span>
             <span class="technology">Python 3</span>
+            <span class="technology">NoSQL</span>
             <span class="technology">Redis</span>
             <span class="technology">Docker</span>
             <span class="technology">Kubernetes</span>
+            <span class="technology">Protobuf</span>
+            <span class="technology">OpenAPI</span>
         </div>
         <div class="section-element clickable" onclick="openWebsite('https://capgemini.com')">
             <div class="exp-main-section">
                 <div class="exp-logo-section">
-                    <img class="logo" alt="Capgemini - Logo"
-                         src="https://media-exp1.licdn.com/dms/image/C4D0BAQFWzOAVgGjUUA/company-logo_200_200/0/1641979388362?e=1661990400&v=beta&t=mkPQYYMLf5OSc2vCPrfjf3ktswRz_EjF2siPFXAJZpA">
+                    <img class="logo" alt="Capgemini - Logo" src="src/images/capgemini.jpeg"/>
                 </div>
                 <div class="exp-title-section">
                     <h3>Capgemini · Software Engineer Intern</h3>
@@ -129,9 +228,26 @@
             <span class="technology">Docker</span>
             <span class="technology">Apex</span>
             <span class="technology">Salesforce</span>
+            <span class="technology">Azure</span>
         </div>
     </section>
-    <section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="section-element clickable" onclick="openWebsite('https://pwr.edu.pl/en/')">
+            <div class="exp-main-section">
+                <div class="exp-logo-section">
+                    <img class="logo" alt="Wroclaw University of Science and Technology - Logo"
+                         src="src/images/pwr.jpeg">
+                </div>
+                <div class="exp-title-section">
+                    <h3>Wroclaw University of Science and Technology</h3>
+                    <p class="additional-info">Faculty of Computer Science and Management</p>
+                </div>
+            </div>
+            <p>Computer Science, Bachelor's degree</p>
+        </div>
+    </section>
+    <section id="personal-projects">
         <h2>Personal Projects</h2>
         <div class="section-element bottom-border clickable"
              onclick="openWebsite('https://github.com/DSniatecki/location-tracker')">
@@ -163,6 +279,8 @@
             <span class="technology">Testcontainers</span>
             <span class="technology">OpenAPI</span>
             <span class="technology">Protobuf</span>
+            <span class="technology">Keycloak</span>
+            <span class="technology">Nginx</span>
             <span class="technology">Prometheus</span>
             <span class="technology">Grafana</span>
             <span class="technology">Kibana</span>
@@ -222,7 +340,7 @@
     </section>
 </div>
 <footer class="upper-border">
-    <a class="link" href="https://dsniatecki.github.io">Damian Śniatecki · 2022</a>
+    <a class="link" href="https://www.linkedin.com/in/damiansn/" target="_blank">Damian Śniatecki · 2022</a>
 </footer>
 </body>
 </html>

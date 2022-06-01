@@ -44,10 +44,25 @@ footer {
     margin: auto;
 }
 
+.avatar {
+    width: 152px;
+    height: 216px;
+    border-radius: 6px;
+}
+
+.main-intro {
+    font-size: 24px;
+    margin: 0 3px 15px;
+}
+
+.intro {
+    margin: 10px 3px;
+}
+
 .logo {
     width: 60px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .additional-info {
@@ -80,16 +95,24 @@ footer {
 .technology {
     display: inline-block;
     border: 1.5px solid #30363d;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 2px 6px;
     margin: 3px 0;
-    color: #8b949e;
+    color: #949da6;
 }
 
 .technology:hover {
     transition: transform .2s;
     transform: scale(1.025);
+    border: 1.5px solid #C9D1D9;
     color: #C9D1D9;
+}
+
+.star {
+    margin-top: 2.5px;
+    margin-right: 4px;
+    height: 13px;
+    width: 13px;
 }
 
 .exp-main-section {
@@ -105,23 +128,3 @@ footer {
     padding-left: 10px;
     flex-grow: 1;
 }
-
-/*.experience-section {*/
-/*margin: 15px 0;*/
-/*border: 3px solid #636b75;*/
-/*border-radius: 20px;*/
-/*padding: 10px 20px;*/
-/*}*/
-
-/*.experience-section:hover {*/
-/*    transition: transform .2s;*/
-/*    transform: scale(1.025);*/
-/*}*/
-
-/*.technology {*/
-/*    !*background-color: grey;*!*/
-/*    !*border-radius: 5px;*!*/
-/*    !*padding: 2px 6px;*!*/
-/*    !*color: #FFFFFF;*!*/
-/*    !*font-size: 18px;*!*/
-/*}*/
