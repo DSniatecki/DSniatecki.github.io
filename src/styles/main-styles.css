@@ -8,6 +8,10 @@ header {
     margin: 0 10px;
 }
 
+h1{
+    margin: 2px 0 6px;
+}
+
 h2 {
     font-size: 26px;
     color: #C9D1D9;
@@ -35,6 +39,11 @@ footer {
 .link:hover {
     text-decoration: underline;
     color: #58A6FF;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .main-content {
