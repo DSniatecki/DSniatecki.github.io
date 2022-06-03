@@ -1,0 +1,35 @@
+.avatar {
+    width: 152px;
+    height: 216px;
+}
+
+.main-intro {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.technology {
+    display: inline-block;
+    border: 1.5px solid #30363d;
+    padding: 2px 6px;
+    margin: 3px 0;
+    color: #949da6;
+}
+
+.technology:hover {
+    border: 1.5px solid #C9D1D9;
+    color: #C9D1D9;
+}
+
+.star {
+    margin-top: 2.5px;
+    margin-right: 4px;
+    height: 13px;
+    width: 13px;
+}
